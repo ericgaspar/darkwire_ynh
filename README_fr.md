@@ -1,11 +1,11 @@
-# CodiMD pour YunoHost
+# Darkwire pour YunoHost
 
 [![Niveau d'intégration](https://dash.yunohost.org/integration/codimd.svg)](https://dash.yunohost.org/appci/app/codimd) ![](https://ci-apps.yunohost.org/ci/badges/codimd.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/codimd.maintain.svg)  
-[![Installer CodiMD avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=codimd)
+[![Installer Darkwire avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=codimd)
 
 *[Read this readme in english.](./README.md)* 
 
-> *Ce package vous permet d'installer CodiMD rapidement et simplement sur un serveur YunoHost.  
+> *Ce package vous permet d'installer Darkwire rapidement et simplement sur un serveur YunoHost.  
 Si vous n'avez pas YunoHost, consultez [le guide](https://yunohost.org/#/install) pour apprendre comment l'installer.*
 
 ## Vue d'ensemble
@@ -44,8 +44,8 @@ Vous pouvez configurer CodiMD en modifiant le fichier `/var/www/codimd/config.js
 
 ## Liens
 
- * Signaler un bug : https://github.com/YunoHost-Apps/codimd_ynh/issues
- * Dépôt de l'application principale : https://github.com/codimd/server/
+ * Signaler un bug : https://github.com/YunoHost-Apps/darkwire_ynh/issues
+ * Dépôt de l'application principale : https://github.com/darkwire/darkwire.io
  * Site web YunoHost : https://yunohost.org/
 
 ---
@@ -53,11 +53,11 @@ Vous pouvez configurer CodiMD en modifiant le fichier `/var/www/codimd/config.js
 Informations pour les développeurs
 ----------------
 
-Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/codimd_ynh/tree/testing).
+Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/darkwire_ynh/tree/testing).
 
 Pour essayer la branche testing, procédez comme suit.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/codimd_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/darkwire_ynh/tree/testing --debug
 ou
-sudo yunohost app upgrade codimd -u https://github.com/YunoHost-Apps/codimd_ynh/tree/testing --debug
+sudo yunohost app upgrade darkwire -u https://github.com/YunoHost-Apps/darkwire_ynh/tree/testing --debug
 ```

@@ -1,0 +1,9 @@
+SOURCE_URL=https://github.com/darkwire/darkwire.io/archive/master.tar.gz
+SOURCE_SUM=f76f6666a29768cb70fb5a7d5485bab954583e22fb1c6da77325e2ca6ae568cb
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=tar.gz
+SOURCE_IN_SUBDIR=true
+SOURCE_FILENAME=
+
+
+
